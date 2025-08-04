@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Travel Booking Portal</title>
+  <link rel="stylesheet" href="style1.css" />
+</head>
+<body>
+  <header>
+    <h1>🌍 Explore & Book Your Dream Trip</h1>
+    <p>Flights ✈ | Hotels 🏨 | Guides 🧭</p>
+  </header>
+
+  <main class="container">
+    <section class="booking">
+      <h2>✈️ Flight Booking</h2>
+      <form id="flightForm">
+        <input type="text" placeholder="From" required>
+        <input type="text" placeholder="To" required>
+        <input type="date" required>
+        <input type="number" placeholder="Passengers" required>
+        <button type="submit">Book Flight</button>
+      </form>
+    </section>
+
+    <section class="booking">
+      <h2>🏨 Hotel Booking</h2>
+      <form id="hotelForm">
+        <input type="text" placeholder="Destination City" required>
+        <input type="date" placeholder="Check-in" required>
+        <input type="date" placeholder="Check-out" required>
+        <input type="number" placeholder="Guests" required>
+        <button type="submit">Book Hotel</button>
+      </form>
+    </section>
+
+    <section class="booking">
+      <h2>🧭 Guide Booking</h2>
+      <form id="guideForm">
+        <input type="text" placeholder="Tour City" required>
+        <input type="text" placeholder="Preferred Language" required>
+        <input type="date" placeholder="Tour Date" required>
+        <button type="submit">Book Guide</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 TravelMate. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
